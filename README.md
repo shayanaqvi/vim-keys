@@ -10,4 +10,4 @@ A script that displays 'basic' keybindings for Vim, written in Python. If I shou
 ## Accessing the script from anywhere
 You could create an alias for the script:
 1. Edit your .bashrc file, usually located in your ~/ directory, in your favourite text editor (i.e. Vim :P, or nano)
-2. Create an alias with your name of choice: ```alias vim_keys="cd /path/to/extracted/folder; ./vim_keys.sh; cd $(pwd)"```
+2. Create an alias with your name of choice: ```alias vim_keys="cd /path/to/extracted/folder; ./vim_keys.sh; cd -"```
