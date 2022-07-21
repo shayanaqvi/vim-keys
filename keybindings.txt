@@ -1,0 +1,92 @@
+--- Modes ---
+
+Enter 'Insert' Mode behind current character .......... i
+Enter 'Insert' Mode in front of current character ..... a
+Enter 'Insert' Mode at the line below ................. o
+Enter 'Insert' Mode at the line above ................. O
+Exit 'Insert' Mode .................................... esc
+
+Enter 'Visual' (text selection) Mode .................. v
+Select text to the top ................................ k / arrow up
+Select text to the bottom ............................. j / arrow down
+Select text to the left ............................... h / arrow left
+Select text to the right .............................. l / arrow right
+Delete selection ...................................... d
+Replace selection ..................................... s
+Copy (yank) selection ................................. y
+Exit 'Visual' Mode .................................... esc
+
+
+
+--- Editing ---
+
+Append ................................................ a
+Append from end of line ............................... A
+
+Insert ................................................ i
+
+Next line ............................................. o
+Previous line ......................................... O
+
+Delete char and insert ................................ s
+Delete line and insert ................................ S
+Delete until end of line and insert ................... C
+
+Replace one character ................................. r
+Enter 'replace' mode .................................. R
+
+Undo changes .......................................... u
+Redo changes .......................................... Ctrl+r
+
+
+
+--- Navigating ---
+
+Move up ............................................... k / arrow up
+Move down ............................................. j / arrow down
+Move left ............................................. h / arrow left
+Move right ............................................ l / arrow right
+
+Move cursor to top of document ........................ gg
+Move cursor to bottom of document ..................... G
+Move cursor to a specific line number ................. :{line_number}
+
+Move cursor to start of line .......................... 0
+Move cursor to end of line ............................ $
+
+Move cursor foward to a specific column number......... f{column_number}
+Move cursor backward to a specific column number ...... F{column_number}
+
+Move cursor to next word .............................. w
+Move cursor to previous word .......................... b
+
+Move the selected line to the middle of the view ...... zz
+Move the selected line to the top of the view ......... zt
+Move the selected line to the bottom of the view ...... zb
+
+Move cursor to the top of the view .................... H
+Move cursor to the middle of the view ................. M
+Move cursor to the bottom of the view ................. L
+
+Half-Page Up .......................................... Ctrl + u
+Half-Page Down ........................................ Ctrl + d
+
+
+
+--- Clipboard ---
+
+Copy line (yank line) ................................. yy
+Paste ................................................. p
+Delete character ...................................... x
+Delete line ........................................... dd
+Delete word ........................................... diw
+
+
+
+--- Exit ---
+
+Close file without saving ............................. :q
+Override close file without saving .................... :q!
+Save changes .......................................... :w
+Save and close file ................................... :wq
+Save and quit ......................................... ZZ
